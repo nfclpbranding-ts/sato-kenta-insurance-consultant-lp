@@ -414,14 +414,14 @@ body {
 }
 
 .btn-primary {
-    background: var(--accent-gold);
-    color: var(--primary-navy);
+    background: #06C755;
+    color: white;
 }
 
 .btn-primary:hover {
-    background: #d4b570;
+    background: #05b04c;
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(201, 169, 97, 0.4);
+    box-shadow: 0 8px 20px rgba(6, 199, 85, 0.4);
 }
 
 .btn-primary:hover svg {
@@ -429,15 +429,17 @@ body {
 }
 
 .btn-secondary {
-    background: transparent;
-    color: var(--bg-primary);
-    border: 2px solid var(--bg-primary);
+    background: #ff9500;
+    color: white;
+    border: 2px solid #ff9500;
 }
 
 .btn-secondary:hover {
-    background: var(--bg-primary);
-    color: var(--primary-navy);
+    background: #e68600;
+    color: white;
+    border-color: #e68600;
     transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(255, 149, 0, 0.4);
 }
 
 .btn-secondary:hover svg {
@@ -865,15 +867,15 @@ button:focus {
     align-items: center;
     gap: var(--space-md);
     padding: 1.25rem 3rem;
-    background: var(--primary-navy);
-    color: var(--pure-white);
-    border: none;
+    background: rgba(255, 255, 255, 0.95);
+    color: var(--primary-navy);
+    border: 2px solid var(--accent-gold);
     border-radius: 50px;
     font-size: 1.125rem;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0 8px 24px rgba(26, 43, 74, 0.2);
+    box-shadow: 0 8px 24px rgba(201, 169, 97, 0.25);
 }
 
 .btn-show-video svg {
@@ -884,9 +886,10 @@ button:focus {
 
 .btn-show-video:hover {
     background: var(--accent-gold);
-    color: var(--primary-navy);
+    color: white;
+    border-color: var(--accent-gold);
     transform: translateY(-3px);
-    box-shadow: 0 12px 32px rgba(201, 169, 97, 0.3);
+    box-shadow: 0 12px 32px rgba(201, 169, 97, 0.4);
 }
 
 .btn-show-video:hover svg {
